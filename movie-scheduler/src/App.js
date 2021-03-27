@@ -1,9 +1,11 @@
+import Header from './Components/Header'
+
 function App() {
-  const name = 'Cutler';
+  const name = 'Cutler'
 
   return (
     <div className="Container">
-      <h1>Movie Schedule by {name}!</h1>
+      <Header title='Movie Scheduler App'/>
     </div>
   );
 }
