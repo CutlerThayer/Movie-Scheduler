@@ -2,7 +2,7 @@
 
 .Container{
   font-family: 'Varela', sans-serif;
-  background-color: darkgray;
+  background-color: #404040;
 }
 
 .Header{
@@ -17,4 +17,5 @@
 
 button{
   border: none;
+  padding: auto;
 }
