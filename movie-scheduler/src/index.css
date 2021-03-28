@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
-.Container{
-  font-family: 'Varela', sans-serif;
+body{
   background-color: #404040;
 }
 
-.Header{
-  color: white;
-  text-align: center;
-  background-color: red;
+.container{
+  font-family: 'Varela', sans-serif;
 }
 
-.Navbar{
+.header{
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.navbar{
   text-align: center;
 }
 
@@ -24,18 +27,27 @@ button{
   font-size: medium;
 }
 
-.AddButton{
+.addButton{
   background-color: green;
 }
 
-.AddButton:hover{
+.addButton:hover{
   background-color: yellowgreen;
 }
 
-.RemoveButton{
+.removeButton{
   background-color: red;
 }
 
-.RemoveButton:hover{
+.removeButton:hover{
   background-color: pink;
+}
+
+.resBox{
+  background-color: lightgray;
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  margin-left: 2%;
+  margin-top: 1%;
 }
