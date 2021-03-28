@@ -10,7 +10,7 @@ const Navbar = () => {
 }
 
 const addMovie = {
-    backgroundColor: 'lightgreen'
+    backgroundColor: 'green'
 }
 
 const removeMovie = {
