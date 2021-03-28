@@ -1,20 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Navbar = () => {
     return (
         <div className='Navbar'>
-            <button style={addMovie}>Add Movie</button>
-            <button style={removeMovie}>Remove Movie</button>
+            <button className='AddButton'>Add Movie</button>
+            <button className='RemoveButton'>Remove Movie</button>
         </div>
     )
 }
 
-const addMovie = {
-    backgroundColor: 'green'
-}
+// const addMovie = {
+//     backgroundColor: 'green'
+// }
 
-const removeMovie = {
-    backgroundColor: 'red'
-}
+// const removeMovie = {
+//     backgroundColor: 'red'
+// }
 
 export default Navbar

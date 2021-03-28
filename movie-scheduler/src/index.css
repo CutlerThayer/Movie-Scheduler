@@ -21,4 +21,21 @@ button{
   margin: -5px 10px 10px 10px;
   font-family: 'Varela', sans-serif;
   color: white;
+  font-size: medium;
+}
+
+.AddButton{
+  background-color: green;
+}
+
+.AddButton:hover{
+  background-color: yellowgreen;
+}
+
+.RemoveButton{
+  background-color: red;
+}
+
+.RemoveButton:hover{
+  background-color: pink;
 }
