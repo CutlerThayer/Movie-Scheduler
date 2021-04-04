@@ -1,9 +1,4 @@
 const OpenMovieForm = () => {
-    var isOpen = false
-
-    function switchOpen(){
-        isOpen = !isOpen
-    }
 
     return (
         <div>
@@ -12,4 +7,4 @@ const OpenMovieForm = () => {
     )
 }
 
-export default O
+export default OpenMovieForm
