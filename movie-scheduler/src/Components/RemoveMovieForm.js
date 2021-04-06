@@ -1,7 +1,7 @@
 const RemoveMovieForm = () => {
  
     return (
-        <div>
+        <div className='removeMovieForm'>
             <p>Remove movie</p>
         </div>
     )

@@ -1,7 +1,7 @@
 const OpenMovieForm = () => {
 
     return (
-        <div>
+        <div className='openMovieForm'>
             <p>Open Movie Form</p>
         </div>
     )

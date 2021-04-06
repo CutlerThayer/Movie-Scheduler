@@ -51,3 +51,13 @@ button{
   margin-left: 2%;
   margin-top: 1%;
 }
+
+.openMovieForm{
+  background-color: lightblue;
+  color: red;
+}
+
+.removeMovieForm{
+  background-color: yellow;
+  color: blue;
+}

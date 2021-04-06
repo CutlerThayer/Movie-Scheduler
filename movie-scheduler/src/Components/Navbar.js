@@ -14,19 +14,33 @@ class Navbar extends React.Component{
 
     handleAddClick = () => {
         console.log("add clicked");
-        this.setState({
-            addVisible: true,
-            removeVisible: false
-        });
+        if(this.state.addVisible){
+            this.setState({
+                addVisible: false
+            });
+        }
+        else{
+            this.setState({
+                addVisible: true,
+                removeVisible: false
+            });
+        }
         console.log(this.state);
     }
 
     handleRemoveClick = () =>{
         console.log("remove clicked");
-        this.setState({
-            addVisible: false,
-            removeVisible: true
-        });
+        if(this.state.removeVisible){
+            this.setState({
+                removeVisible: false
+            });
+        }
+        else{
+            this.setState({
+                addVisible: false,
+                removeVisible: true
+            });
+        }
         console.log(this.state);
     }
 
