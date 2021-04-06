@@ -1,15 +1,10 @@
-// const RemoveMovieForm = () => {
-//     var isOpen = false
+const RemoveMovieForm = () => {
+ 
+    return (
+        <div>
+            <p>Remove movie</p>
+        </div>
+    )
+}
 
-//     function switchOpen(){
-//         isOpen = !isOpen
-//     }
-
-//     return (
-//         <div>
-            
-//         </div>
-//     )
-// }
-
-// export default RemoveMovieForm
+export default RemoveMovieForm
