@@ -53,7 +53,6 @@ button{
 }
 
 .openMovieForm{
-  background-color: lightblue;
   color: red;
   font-size: large;
   text-align: center;
@@ -64,6 +63,11 @@ button{
   margin: 1%;
   border: none;
   border-bottom: 2px solid red;
+  width: 20%;
+}
+
+.listButton{
+  background-color: aquamarine;
 }
 
 .removeMovieForm{
