@@ -55,6 +55,15 @@ button{
 .openMovieForm{
   background-color: lightblue;
   color: red;
+  font-size: large;
+  text-align: center;
+}
+
+.openMovieForm input{
+  font-family: 'Varela', sans-serif;
+  margin: 1%;
+  border: none;
+  border-bottom: 2px solid red;
 }
 
 .removeMovieForm{
