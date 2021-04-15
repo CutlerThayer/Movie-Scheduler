@@ -6,11 +6,13 @@ class OpenMovieForm extends React.Component{
         super(props);
         this.state = {
             titleVal: 'Enter movie title',
-            notesVal: 'Enter notes about movie'
+            notesVal: 'Enter notes about movie',
+            theaterNum: '2'
         };
 
         this.handleTitleChange = this.handleTitleChange.bind(this);
         this.handleNotesChange = this.handleNotesChange.bind(this);
+        this.handleNumChange = this.handleNumChange.bind(this);
         // this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -20,6 +22,10 @@ class OpenMovieForm extends React.Component{
 
     handleNotesChange(event){
         this.setState({notesVal: event.target.value});
+    }
+
+    handleNumChange(event){
+        this.setState({theaterNum: event.target.value});
     }
 
     render(){
@@ -32,6 +38,10 @@ class OpenMovieForm extends React.Component{
                 <label>
                     Notes:  
                     <input value={this.state.notesVal} onChange={this.handleNotesChange} />
+                </label>
+                <label>
+                    Theater Number:  
+                    <input value={this.state.theaterNum} onChange={this.handleNumChange} />
                 </label>
                 <button className='listButton'>Add to list</button>
             </form>
