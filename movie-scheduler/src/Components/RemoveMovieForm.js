@@ -17,6 +17,15 @@ class RemoveMovieForm extends React.Component{
         this.setState({titleVal: event.target.value});
     }
 
+    removeMovieFromList(title){
+        for(var i = 0; i < movieList.movies.length; ++i){
+            if(title == movieList.movies.title){
+                movieList.movies.splice(i, 1);
+                return
+            }
+        }
+    }
+
     render(){
         return(
             <form className='removeMovieForm' onSubmit={this.handleSubmit}>

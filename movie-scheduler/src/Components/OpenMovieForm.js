@@ -28,6 +28,11 @@ class OpenMovieForm extends React.Component{
         this.setState({theaterNum: event.target.value});
     }
 
+    addMovieToList(){
+        const newMovie = new Movie(state.titleVal, state.notesVal, state.theaterNum);
+        movieList.movies.push(newMovie);
+    }
+
     render(){
         return(
             <form className='openMovieForm' onSubmit={this.handleSubmit}>

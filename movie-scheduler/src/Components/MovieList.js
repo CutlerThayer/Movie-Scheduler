@@ -1,0 +1,3 @@
+var movieList = {
+  movies: []
+}

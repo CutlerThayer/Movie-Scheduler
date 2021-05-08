@@ -5,6 +5,9 @@ import Result from './Components/Result'
 function App() {
   const name = 'Cutler'
 
+  var movieList = [];
+
+
   return (
     <div className="container">
       <Header />
