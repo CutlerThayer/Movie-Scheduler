@@ -58,7 +58,7 @@ button{
   text-align: center;
 }
 
-.openMovieForm input{
+input{
   font-family: 'Varela', sans-serif;
   margin: 1%;
   border: none;
@@ -68,9 +68,15 @@ button{
 
 .listButton{
   background-color: aquamarine;
+  color: black;
+}
+
+.listButton:hover{
+  background-color: aqua;
 }
 
 .removeMovieForm{
-  background-color: yellow;
-  color: blue;
+  color: red;
+  font-size: large;
+  text-align: center;
 }
